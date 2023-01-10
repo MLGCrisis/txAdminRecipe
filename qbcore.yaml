@@ -486,6 +486,9 @@ tasks:
     ref: main
     src: https://github.com/MLGCrisis/LegacyFuel
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
   - action: download_github
     dest: ./resources/[mlgc]/[dependencies]/loaf_lib
     ref: main
@@ -520,217 +523,229 @@ tasks:
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/actionwithballs
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/actionwithballs
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/advanced_vehicles
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/advanced_vehicles
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/AiTaxiPro
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/AiTaxiPro
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/aquiver_golf
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/aquiver_golf
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/aquiver_poker
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/aquiver_poker
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/aquiver_roulette
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/aquiver_roulette
   
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/BetterFight
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/BetterFight
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/blips_creator
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/blips_creator
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/boii-hunting
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/boii-hunting
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/BusDriverPro
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/BusDriverPro
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/cd_garage
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/cd_garage
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/cm-fishing
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/cm-fishing
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/codem-chat
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/codem-chat
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/codem-venicehud
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/codem-venicehud
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/codem-venice-medo
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/codem-venice-medo
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/devcore_qbus_drugsell
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/devcore_qbus_drugsell
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/devcore_smoke
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/devcore_smoke
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/emergency_controls
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/emergency_controls
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/jim-vanillaunicorn
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/jim-vanillaunicorn
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/kr_pets
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/kr_pets
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/lb-phone
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/lb-phone
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/lb-phone_prop
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/lb-phone_prop
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/qb_business
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/qb_business
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/qb_gas_station
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/qb_gas_station
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/qb_stores
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/qb_stores
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_arm_wrestling
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rcore_arm_wrestling
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_clothes
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rcore_clothes
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_lunapark
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rcore_lunapark
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_pool
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rcore_pool
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_radiocar
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rcore_radiocar
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_spray
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rcore_spray
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_stickers
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rcore_stickers
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_tennis
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rcore_tennis
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rtx_neons
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rtx_neons
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rtx_tv
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/rtx_tv
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/sm_darts_modit
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/sm_darts_modit
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/truck_logistics
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/truck_logistics
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/Venice-Notification
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/Venice-Notification
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/vns-slots
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/vns-slots
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/vns-wheel
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/vns-wheel
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/wais-battlepass
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/wais-battlepass
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/xdiskjockey
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/xdiskjockey
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/xradio
     ref: main
-    src: https://github.com/MLGCrisis/trucks
+    src: https://github.com/MLGCrisis/xradio
+
+  #MLGC Maps
+  - action: download_github
+    dest: ./resources/[mlgcmaps]/[free]/maps
+    ref: main
+    src: https://github.com/MLGCrisis/maps
 
 
   # Clean up
