@@ -264,7 +264,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
-    src: https://github.com/qbcore-framework/qb-pawnshop
+    src: https://github.com/MLGCrisis/qb-pawnshop
 
   - action: download_github
     dest: ./resources/[qb]/qb-policejob
@@ -470,6 +470,11 @@ tasks:
     dest: ./resources/[mlgc]/[dependencies]/cd_garageshell
     ref: main
     src: https://github.com/MLGCrisis/cd_garageshell
+  
+  - action: download_github
+    dest: ./resources/[mlgc]/[dependencies]/cd_keymaster
+    ref: main
+    src: https://github.com/MLGCrisis/cd_keymaster
 
   - action: download_github
     dest: ./resources/[mlgc]/[dependencies]/fishing-minigame
