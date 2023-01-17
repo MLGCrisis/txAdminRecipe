@@ -284,7 +284,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-recyclejob
+    src: https://github.com/MLGCrisis/qb-recyclejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-scoreboard
@@ -294,7 +294,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-scrapyard
     ref: main
-    src: https://github.com/qbcore-framework/qb-scrapyard
+    src: https://github.com/MLGCrisis/qb-scrapyard
 
   - action: download_github
     dest: ./resources/[qb]/qb-shops
@@ -334,7 +334,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-taxijob
     ref: main
-    src: https://github.com/qbcore-framework/qb-taxijob
+    src: https://github.com/MLGCrisis/qb-taxijob
 
   - action: download_github
     dest: ./resources/[qb]/qb-towjob
@@ -377,7 +377,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclesales
+    src: https://github.com/MLGCrisis/qb-vehiclesales
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehicleshop
