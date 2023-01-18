@@ -406,6 +406,11 @@ tasks:
 
   #MLGC Free
   - action: download_github
+    dest: ./resources/[mlgc]/[free]/ChairBedSystem
+    ref: main
+    src: https://github.com/MLGCrisis/ChairBedSystem
+
+  - action: download_github
     dest: ./resources/[mlgc]/[free]/codem-craft
     ref: main
     src: https://github.com/MLGCrisis/codem-craft
@@ -444,11 +449,6 @@ tasks:
     dest: ./resources/[mlgc]/[free]/online-interiors
     ref: main
     src: https://github.com/MLGCrisis/online-interiors
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[free]/qb-sit
-    ref: main
-    src: https://github.com/MLGCrisis/qb-sit
 
   - action: download_github
     dest: ./resources/[mlgc]/[free]/qb-tattooshop
