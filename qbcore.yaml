@@ -108,7 +108,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-adminmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-adminmenu
+    src: https://github.com/MLGCrisis/qb-adminmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
@@ -449,6 +449,11 @@ tasks:
     dest: ./resources/[mlgc]/[free]/qb-sit
     ref: main
     src: https://github.com/MLGCrisis/qb-sit
+
+  - action: download_github
+    dest: ./resources/[mlgc]/[free]/qb-tattooshop
+    ref: main
+    src: https://github.com/MLGCrisis/qb-tattooshop
 
   - action: download_github
     dest: ./resources/[mlgc]/[free]/rpemotes
