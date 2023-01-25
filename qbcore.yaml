@@ -8,7 +8,7 @@ description: MLGC Roleplay South Africa
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://github.com/qbcore-framework/txAdminRecipe
+    src: https://github.com/MLGCrisis/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
 
@@ -35,6 +35,7 @@ tasks:
   - action: download_file
     path: ./tmp/files/oxmysql.zip
     url: https://github.com/overextended/oxmysql/releases/download/v2.5.4/oxmysql.zip
+  
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/oxmysql.zip
@@ -42,29 +43,20 @@ tasks:
   - action: download_file
     path: ./tmp/menuv.zip
     url: https://github.com/ThymonA/menuv/releases/download/v1.4.1/menuv_v1.4.1.zip
+  
   - action: unzip
     dest: ./resources/[standalone]/menuv
     src: ./tmp/menuv.zip
-
+ 
   - action: download_github
     dest: ./resources/[standalone]/bob74_ipl
     ref: master
     src: https://github.com/qbcore-framework/bob74_ipl
 
   - action: download_github
-    dest: ./resources/[standalone]/safecracker
-    ref: main
-    src: https://github.com/qbcore-framework/safecracker
-
-  - action: download_github
-    dest: ./resources/[standalone]/screenshot-basic
+    dest: ./resources/[standalone]/connectqueue
     ref: master
-    src: https://github.com/citizenfx/screenshot-basic
-
-  - action: download_github
-    dest: ./resources/[standalone]/progressbar
-    ref: main
-    src: https://github.com/qbcore-framework/progressbar
+    src: https://github.com/qbcore-framework/connectqueue
 
   - action: download_github
     dest: ./resources/[standalone]/interact-sound
@@ -77,14 +69,24 @@ tasks:
     src: https://github.com/qbcore-framework/mhacking
 
   - action: download_github
-    dest: ./resources/[standalone]/connectqueue
-    ref: master
-    src: https://github.com/qbcore-framework/connectqueue
-
-  - action: download_github
     dest: ./resources/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
+
+  - action: download_github
+    dest: ./resources/[standalone]/progressbar
+    ref: main
+    src: https://github.com/qbcore-framework/progressbar
+
+  - action: download_github
+    dest: ./resources/[standalone]/safecracker
+    ref: main
+    src: https://github.com/qbcore-framework/safecracker
+
+  - action: download_github
+    dest: ./resources/[standalone]/screenshot-basic
+    ref: master
+    src: https://github.com/citizenfx/screenshot-basic
 
     # VOICE
   - action: download_github
@@ -179,6 +181,11 @@ tasks:
     src: https://github.com/MLGCrisis/qb-doorlock
 
   - action: download_github
+    dest: ./resources/[qb]/qb-garbagejob
+    ref: main
+    src: https://github.com/qbcore-framework/qb-garbagejob
+
+  - action: download_github
     dest: ./resources/[qb]/qb-hotdogjob
     ref: main
     src: https://github.com/MLGCrisis/qb-hotdogjob
@@ -208,9 +215,6 @@ tasks:
     ref: main
     src: https://github.com/MLGCrisis/qb-inventory
 
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
   - action: download_github
     dest: ./resources/[qb]/qb-jewelery
     ref: main
@@ -225,6 +229,9 @@ tasks:
     dest: ./resources/[qb]/qb-lapraces
     ref: main
     src: https://github.com/qbcore-framework/qb-lapraces
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[qb]/qb-loading
@@ -326,6 +333,9 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-streetraces
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
   - action: download_github
     dest: ./resources/[qb]/qb-target
     ref: main
@@ -366,9 +376,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclefailure
 
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
@@ -406,11 +413,6 @@ tasks:
 
   #MLGC Free
   - action: download_github
-    dest: ./resources/[mlgc]/[free]/ChairBedSystem
-    ref: main
-    src: https://github.com/MLGCrisis/ChairBedSystem
-
-  - action: download_github
     dest: ./resources/[mlgc]/[free]/codem-craft
     ref: main
     src: https://github.com/MLGCrisis/codem-craft
@@ -421,6 +423,11 @@ tasks:
     src: https://github.com/MLGCrisis/d3-arcade
 
   - action: download_github
+    dest: ./resources/[mlgc]/[free]/hh_aidoc
+    ref: main
+    src: https://github.com/MLGCrisis/hh_aidoc
+
+  - action: download_github
     dest: ./resources/[mlgc]/[free]/jim-mining
     ref: main
     src: https://github.com/MLGCrisis/jim-mining
@@ -429,6 +436,9 @@ tasks:
     dest: ./resources/[mlgc]/[free]/jim-recycle
     ref: main
     src: https://github.com/MLGCrisis/jim-recycle
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[mlgc]/[free]/keep-backpack
@@ -449,6 +459,11 @@ tasks:
     dest: ./resources/[mlgc]/[free]/online-interiors
     ref: main
     src: https://github.com/MLGCrisis/online-interiors
+
+  - action: download_github
+    dest: ./resources/[mlgc]/[free]/qb-sit
+    ref: main
+    src: https://github.com/MLGCrisis/qb-sit
 
   - action: download_github
     dest: ./resources/[mlgc]/[free]/qb-tattooshop
@@ -496,9 +511,6 @@ tasks:
     ref: main
     src: https://github.com/MLGCrisis/LegacyFuel
 
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
   - action: download_github
     dest: ./resources/[mlgc]/[dependencies]/loaf_lib
     ref: main
@@ -511,11 +523,6 @@ tasks:
 
   - action: download_github
     dest: ./resources/[mlgc]/[dependencies]/rcore_lunapark_assets
-    ref: main
-    src: https://github.com/MLGCrisis/rcore_lunapark_assets
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[dependencies]/rcore_spray_assets
     ref: main
     src: https://github.com/MLGCrisis/rcore_lunapark_assets
 
@@ -534,6 +541,9 @@ tasks:
     dest: ./resources/[mlgc]/[paid]/actionwithballs
     ref: main
     src: https://github.com/MLGCrisis/actionwithballs
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/advanced_vehicles
@@ -566,11 +576,6 @@ tasks:
     src: https://github.com/MLGCrisis/BetterFight
 
   - action: download_github
-    dest: ./resources/[mlgc]/[paid]/blips_creator
-    ref: main
-    src: https://github.com/MLGCrisis/blips_creator
-
-  - action: download_github
     dest: ./resources/[mlgc]/[paid]/boii-hunting
     ref: main
     src: https://github.com/MLGCrisis/boii-hunting
@@ -581,32 +586,9 @@ tasks:
     src: https://github.com/MLGCrisis/BusDriverPro
 
   - action: download_github
-    dest: ./resources/[mlgc]/[paid]/cd_garage
+    dest: ./resources/[mlgc]/[paid]/devcore_needs
     ref: main
-    src: https://github.com/MLGCrisis/cd_garage
-
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/cm-fishing
-    ref: main
-    src: https://github.com/MLGCrisis/cm-fishing
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/codem-chat
-    ref: main
-    src: https://github.com/MLGCrisis/codem-chat
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/codem-venicehud
-    ref: main
-    src: https://github.com/MLGCrisis/codem-venicehud
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/codem-venice-medo
-    ref: main
-    src: https://github.com/MLGCrisis/codem-venice-medo
+    src: https://github.com/MLGCrisis/devcore_needs
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/devcore_qbus_drugsell
@@ -629,21 +611,6 @@ tasks:
     src: https://github.com/MLGCrisis/jim-vanillaunicorn
 
   - action: download_github
-    dest: ./resources/[mlgc]/[paid]/kr_pets
-    ref: main
-    src: https://github.com/MLGCrisis/kr_pets
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/lb-phone
-    ref: main
-    src: https://github.com/MLGCrisis/lb-phone
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/lb-phone_prop
-    ref: main
-    src: https://github.com/MLGCrisis/lb-phone_prop
-
-  - action: download_github
     dest: ./resources/[mlgc]/[paid]/qb_business
     ref: main
     src: https://github.com/MLGCrisis/qb_business
@@ -664,52 +631,22 @@ tasks:
     src: https://github.com/MLGCrisis/rcore_arm_wrestling
 
   - action: download_github
-    dest: ./resources/[mlgc]/[paid]/rcore_clothes
-    ref: main
-    src: https://github.com/MLGCrisis/rcore_clothes
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/rcore_lunapark
-    ref: main
-    src: https://github.com/MLGCrisis/rcore_lunapark
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/rcore_pool
-    ref: main
-    src: https://github.com/MLGCrisis/rcore_pool
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/rcore_radiocar
-    ref: main
-    src: https://github.com/MLGCrisis/rcore_radiocar
-
-  - action: download_github
     dest: ./resources/[mlgc]/[paid]/rcore_spray
     ref: main
     src: https://github.com/MLGCrisis/rcore_spray
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/rcore_stickers
-    ref: main
-    src: https://github.com/MLGCrisis/rcore_stickers
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/rcore_tennis
-    ref: main
-    src: https://github.com/MLGCrisis/rcore_tennis
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rtx_neons
     ref: main
     src: https://github.com/MLGCrisis/rtx_neons
 
-  - action: waste_time # prevent github throttling
-    seconds: 10
-
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/rtx_tv
     ref: main
     src: https://github.com/MLGCrisis/rtx_tv
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   - action: download_github
     dest: ./resources/[mlgc]/[paid]/sm_darts_modit
@@ -722,11 +659,6 @@ tasks:
     src: https://github.com/MLGCrisis/truck_logistics
 
   - action: download_github
-    dest: ./resources/[mlgc]/[paid]/Venice-Notification
-    ref: main
-    src: https://github.com/MLGCrisis/Venice-Notification
-
-  - action: download_github
     dest: ./resources/[mlgc]/[paid]/vns-slots
     ref: main
     src: https://github.com/MLGCrisis/vns-slots
@@ -735,21 +667,6 @@ tasks:
     dest: ./resources/[mlgc]/[paid]/vns-wheel
     ref: main
     src: https://github.com/MLGCrisis/vns-wheel
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/wais-battlepass
-    ref: main
-    src: https://github.com/MLGCrisis/wais-battlepass
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/xdiskjockey
-    ref: main
-    src: https://github.com/MLGCrisis/xdiskjockey
-
-  - action: download_github
-    dest: ./resources/[mlgc]/[paid]/xradio
-    ref: main
-    src: https://github.com/MLGCrisis/xradio
 
   #MLGC Maps
   - action: download_github
