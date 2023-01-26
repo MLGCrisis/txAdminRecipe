@@ -431,6 +431,11 @@ tasks:
     dest: ./resources/[mlgc]/[free]/jim-mining
     ref: main
     src: https://github.com/MLGCrisis/jim-mining
+
+  - action: download_github
+    dest: ./resources/[mlgc]/[free]/jim-notepad
+    ref: main
+    src: https://github.com/jimathy/jim-notepad
   
   - action: download_github
     dest: ./resources/[mlgc]/[free]/jim-recycle
