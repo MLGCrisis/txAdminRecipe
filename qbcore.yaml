@@ -281,7 +281,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-prison
     ref: main
-    src: https://github.com/qbcore-framework/qb-prison
+    src: https://github.com/MLGCrisis/qb-prison
 
   - action: download_github
     dest: ./resources/[qb]/qb-radialmenu
