@@ -413,6 +413,11 @@ tasks:
 
   #MLGC Free
   - action: download_github
+    dest: ./resources/[mlgc]/[free]/cinematiccam
+    ref: main
+    src: https://github.com/Kiminaze/cinematiccam
+
+  - action: download_github
     dest: ./resources/[mlgc]/[free]/codem-craft
     ref: main
     src: https://github.com/MLGCrisis/codem-craft
@@ -459,6 +464,11 @@ tasks:
     dest: ./resources/[mlgc]/[free]/mlgc_extras
     ref: main
     src: https://github.com/MLGCrisis/mlgc_extras
+
+  - action: download_github
+    dest: ./resources/[mlgc]/[free]/NativeUILua
+    ref: main
+    src: https://github.com/FrazzIe/NativeUILua
 
   - action: download_github
     dest: ./resources/[mlgc]/[free]/online-interiors
