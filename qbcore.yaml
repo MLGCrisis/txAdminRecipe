@@ -218,7 +218,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-jewelery
     ref: main
-    src: https://github.com/qbcore-framework/qb-jewelery
+    src: https://github.com/MLGCrisis/qb-jewelery
 
   - action: download_github
     dest: ./resources/[qb]/qb-keyminigame
@@ -688,7 +688,6 @@ tasks:
     dest: ./resources/[mlgcmaps]/[free]/maps
     ref: main
     src: https://github.com/MLGCrisis/maps
-
 
   # Clean up
   - action: remove_path
