@@ -463,7 +463,12 @@ tasks:
   - action: download_github
     dest: ./resources/[mlgc]/[free]/mlgc_extras
     ref: main
-    src: https://github.com/MLGCrisis/mlgc_extras
+    src: https://github.com/MLGCrisis/qb-moneywash
+
+  - action: download_github
+    src: ./resources/[mlgc]/[free]/mlgc_extras
+    subpath: resources
+    dest: https://github.com/MLGCrisis/qb-moneywash
 
   - action: download_github
     dest: ./resources/[mlgc]/[free]/NativeUILua
