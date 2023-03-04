@@ -466,9 +466,14 @@ tasks:
     src: https://github.com/MLGCrisis/qb-moneywash
 
   - action: download_github
-    src: ./resources/[mlgc]/[free]/mlgc_extras
+    dest: ./resources/[mlgc]/[free]/qb-stashes
+    ref: main
+    src: https://github.com/MLGCrisis/qb-stashes
+
+  - action: download_github
+    src: ./resources/[mlgc]/[free]/FiveM-QBCore-Money-Wash
     subpath: resources
-    dest: https://github.com/MLGCrisis/qb-moneywash
+    dest: https://github.com/SlimChances/FiveM-QBCore-Money-Wash
 
   - action: download_github
     dest: ./resources/[mlgc]/[free]/NativeUILua
