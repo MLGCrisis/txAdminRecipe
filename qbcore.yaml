@@ -486,6 +486,16 @@ tasks:
     src: https://github.com/MLGCrisis/online-interiors
 
   - action: download_github
+    dest: ./resources/[mlgc]/[free]/ps-ui
+    ref: main
+    src: https://github.com/Project-Sloth/ps-ui
+
+  - action: download_github
+    dest: ./resources/[mlgc]/[free]/ps-drugprocessing
+    ref: main
+    src: https://github.com/MLGCrisis/ps-drugprocessing
+
+  - action: download_github
     dest: ./resources/[mlgc]/[free]/qb-sit
     ref: main
     src: https://github.com/MLGCrisis/qb-sit
