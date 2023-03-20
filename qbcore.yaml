@@ -496,6 +496,11 @@ tasks:
     src: https://github.com/MLGCrisis/ps-drugprocessing
 
   - action: download_github
+    dest: ./resources/[mlgc]/[free]/ps-mdt
+    ref: main
+    src: https://github.com/MLGCrisis/ps-mdt
+
+  - action: download_github
     dest: ./resources/[mlgc]/[free]/qb-blackjack
     ref: main
     src: https://github.com/MLGCrisis/qb-blackjack
