@@ -251,7 +251,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-mechanicjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-mechanicjob
+    src: https://github.com/MLGCrisis/qb-mechanicjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-menu
